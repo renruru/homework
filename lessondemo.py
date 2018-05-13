@@ -7,7 +7,7 @@
 class Employee:
     # 创建一个变量
     pay_raist_amount = 1.2
-    __weight = 40
+    __weight = 40#私有变量
     # 创建一个构造器
     def __init__(self,first,last,age,pay,domain="funcat.com"):
         self.first = first
@@ -37,7 +37,7 @@ class Employee:
     def speak(self):
         print("%s 说：我 %d 岁" %(self.age))
 
-
+#继承
 class Student(Employee):
     w = __weight = 40
     def __init__(self,first,last,pay,domain,grade=3):#参数有默认的值，必须放在参数的最后边
