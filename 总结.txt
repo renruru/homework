@@ -1,0 +1,23 @@
+pip install selenium //安装
+python -m pip install selenium
+print("") 打印
+input("") 输入
+字符串 1.引号“” string= “qqqq”
+       2.strip 方法 ，去除字符串不用的东西
+       3.rstrip/lstrip  去除左右不用的东西
+       4.find方法  -1
+       5.index方法
+import 
+from ,,,import ,,,
+from ,,,import * //导出所有
+while循环
+for循环
+help帮助文档
+
+
+list :有序，切片，pop删除（先进后出），排序，
+tuple元组：定义加逗号，没有方法，不可变
+
+
+
+lesson4:
