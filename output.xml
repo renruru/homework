@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.6.5 on win32)" generated="20180529 10:56:36.406">
+<suite id="s1" name="Test5 29" source="C:\Users\mc\Desktop\homework\test5_29.robot">
+<test id="s1-t1" name="百度搜索">
+<kw name="打开百度">
+<kw name="Open Browser">
+<arguments>
+<arg>http://www.baidu.com</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20180529 10:56:36.462" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20180529 10:56:36.461" endtime="20180529 10:56:36.462"></status>
+</kw>
+<status status="FAIL" starttime="20180529 10:56:36.458" endtime="20180529 10:56:36.462"></status>
+</kw>
+<status status="FAIL" starttime="20180529 10:56:36.457" endtime="20180529 10:56:36.462" critical="yes">No keyword with name 'Open Browser' found.</status>
+</test>
+<status status="FAIL" starttime="20180529 10:56:36.408" endtime="20180529 10:56:36.465"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Test5 29">Test5 29</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20180529 10:56:36.399" level="ERROR">Error in file 'C:\Users\mc\Desktop\homework\test5_29.robot': Non-existing setting 'Library Selenium2Library'.</msg>
+</errors>
+</robot>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.6.5 on win32)" generated="20180531 10:04:23.780">
+<suite id="s1" name="Test01" source="C:\Users\mc\Desktop\homework\rttest\test01.robot">
+<test id="s1-t1" name="百度搜索">
+<kw name="打开百度">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20180531 10:04:24.088" level="INFO">Opening browser 'chrome' to base url 'http://www.baidu.com'.</msg>
+<status status="PASS" starttime="20180531 10:04:24.087" endtime="20180531 10:04:31.807"></status>
+</kw>
+<status status="PASS" starttime="20180531 10:04:24.087" endtime="20180531 10:04:31.807"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20180531 10:04:31.809" endtime="20180531 10:04:33.025"></status>
+</kw>
+<kw name="输入关键字">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>id:kw</arg>
+<arg>${Keyword}</arg>
+</arguments>
+<msg timestamp="20180531 10:04:33.028" level="INFO">Typing text 'helllo' into text field 'id:kw'.</msg>
+<status status="PASS" starttime="20180531 10:04:33.027" endtime="20180531 10:04:33.467"></status>
+</kw>
+<status status="PASS" starttime="20180531 10:04:33.026" endtime="20180531 10:04:33.467"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20180531 10:04:33.469" endtime="20180531 10:04:36.530"></status>
+</kw>
+<status status="PASS" starttime="20180531 10:04:24.085" endtime="20180531 10:04:36.531" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20180531 10:04:23.784" endtime="20180531 10:04:36.534"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Test01">Test01</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
